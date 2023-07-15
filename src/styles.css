@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Manrope";
+  src: url("../src/fonts/Manrope-VariableFont_wght.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope";
+  background-color: hsl(218, 23%, 16%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}

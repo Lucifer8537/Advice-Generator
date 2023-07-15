@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+  .container {
+    font-family: "Manrope";
+    background-color: hsl(217, 19%, 24%);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    position: relative;
+    border-radius: 15px;
+    top: 20%;
+  }
+
+  .heading {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+  }
+
+  .seperator {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  button {
+    background-color: hsl(150, 100%, 66%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  button:hover {
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    font-family: "Manrope";
+    background-color: hsl(217, 19%, 24%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7%;
+    position: relative;
+    border-radius: 15px;
+    top: 20%;
+  }
+  .heading {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    margin-bottom: 7%;
+    font-size: 80%;
+  }
+  .content {
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    margin-bottom: 7%;
+    font-weight: 800;
+  }
+  .seperator {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+  }
+
+  button {
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    border: 0;
+  }
+
+  /* .btn-container button {
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+  } */
+}
